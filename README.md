@@ -1,7 +1,12 @@
+Copy from github.com/jordan-wright/email
+=====
+
+* Add func SendWithStartTLS to support Self-signed SSL certificate
+
 email
 =====
 
-[![Build Status](https://travis-ci.org/jordan-wright/email.png?branch=master)](https://travis-ci.org/jordan-wright/email) [![GoDoc](https://godoc.org/github.com/jordan-wright/email?status.svg)](https://godoc.org/github.com/jordan-wright/email)
+[![Build Status](https://travis-ci.org/jordan-wright/email.png?branch=master)](https://travis-ci.org/jordan-wright/email) [![GoDoc](https://godoc.org/github.com/bangwork-utils/email?status.svg)](https://godoc.org/github.com/bangwork-utils/email)
 
 Robust and flexible email library for Go
 
@@ -18,7 +23,7 @@ The ```email``` package currently supports the following:
 *  More to come!
 
 ### Installation
-```go get github.com/jordan-wright/email```
+```go get github.com/bangwork-utils/email```
 
 *Note: Version > 1 of this library requires Go v1.5 or above.*
 
@@ -78,12 +83,12 @@ for i := 0; i < 4; i++ {
 ```
 
 ### Documentation
-[http://godoc.org/github.com/jordan-wright/email](http://godoc.org/github.com/jordan-wright/email)
+[http://godoc.org/github.com/bangwork-utils/email](http://godoc.org/github.com/bangwork-utils/email)
 
 ### Other Sources
 Sections inspired by the handy [gophermail](https://github.com/jpoehls/gophermail) project.
 
 ### Contributors
-I'd like to thank all the [contributors and maintainers](https://github.com/jordan-wright/email/graphs/contributors) of this package.
+I'd like to thank all the [contributors and maintainers](https://github.com/bangwork-utils/email/graphs/contributors) of this package.
 
 A special thanks goes out to Jed Denlea [jeddenlea](https://github.com/jeddenlea) for his numerous contributions and optimizations.
